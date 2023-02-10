@@ -10,6 +10,13 @@ See it in action:
 
 ## Example
 ```go
+package main
+
+import (
+	"fmt"
+	cache "github.com/OsseInet/ninja_cache"
+)
+
 func main() {
 	cache := cache.New()
 
